@@ -184,7 +184,31 @@ curl -X GET
 
 ```json
 {
-
+  "status": "success",
+  "data": {
+    "intentsReport": [
+      {
+        "total": 14,
+        "intent": "verkeerde_product_wrong_and_exchange"
+      },
+      {
+        "total": 8,
+        "intent": "capabilities"
+      },
+      {
+        "total": 7,
+        "intent": "greeting"
+      },
+      {
+        "total": 7,
+        "intent": "verkeerde_product_wrong"
+      },
+      {
+        "total": 7,
+        "intent": "null"
+      }
+    ]
+  }
 }
 ```
 `GET http://localhost:5000/api/v1/reports/intents?endDate=:EndDate&startDate=:StartDate`
@@ -209,8 +233,8 @@ endDate  |  End Date
 Parameter | Description
 --------- | -----------
 status | Status message
-date  | Conversation date
-count  | Total count of conversations 
+total  | Total count of particular intent 
+intent  | Intent type 
 
 
 # ChatBot
