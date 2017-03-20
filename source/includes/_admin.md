@@ -113,7 +113,7 @@ Parameter | Description
 status | Status message
 conversation |  To get the input and the output between the bot and the user.
 successIntent | Success intent is determined by the confidence score that we recieve from each response of the Watson.The range of the confidence score is between 0 to 1.When the confidence score is above and not equal to 0.5 then it is determined as success intent.
-failedIntent |   Failed intent is determined by the confidence score that we recieve from each response of the Watson.The range of the confidence score is between 0 to 1.When the confidence score is below or equal to 0.5 then it is determined as failed intent
+failedIntent |   Failed intent is determined by the confidence score that we recieve from each response of the Watson.The range of the confidence score is between 0 to 1.When the confidence score is below or equal to 0.5 then it is determined as failed intent.
 user  |  The super admin will receive the total count of success and failed intents. 
 month  | Total count of intent for month
 week  | Total count of intent for week
@@ -288,7 +288,7 @@ workspaceId  |  Your watson workspace id
 username  | Your watson username
 password  | Your watson password
 hideRegistrationForm  | To hide registration form
-hideRatingForm  |  To hide rting form
+hideRatingForm  |  To hide rating form
 removeChatbotBrand  |  To remove chatbot brand 
 language  |  Language Type
 avatar  |  To show avatar
@@ -389,7 +389,7 @@ workspaceId  |  Your watson workspace id
 username  | Your watson username
 password  | Your watson password
 hideRegistrationForm  | To hide registration form
-hideRatingForm  |  To hide rting form
+hideRatingForm  |  To hide rating form
 removeChatbotBrand  |  To remove chatbot brand 
 language  |  Language Type
 avatar  |  To show avatar
@@ -502,8 +502,8 @@ textType  | Conversation type [USER / BOT]
 text  | Conversation default text
 date  | Coversation request date
 feedback  | Feedback
-rating  | 
-pageUrl  |
+rating  | User rating of chatbot
+pageUrl  | End user page url
 endDate  | Coversation start date
 startDate  | Coversation end date
 name  | User name
